@@ -1,0 +1,30 @@
+{
+  "name": "Pavan B N",
+  "initials": "PBN",
+  "photo": "headshot.jpg",
+  "role": "Application Developer",
+  "taglineWords": [
+    "Cloud-Native Systems",
+    "Event-Driven Microservices",
+    "Agentic AI & RAG",
+    "Full-Stack Platforms"
+  ],
+  "location": "Bengaluru, India",
+  "email": "pavangowda56005@gmail.com",
+  "summary": "I'm an Application Developer at IBM building full-stack, cloud-native systems — Spring Boot microservices, event-driven pipelines on Kafka, and Redis-backed APIs, deployed through Docker and Kubernetes. I like designing platforms end to end: from database schema to REST API to the React interface on top, with observability and CI/CD baked in from day one.",
+  "summarySecondary": "Outside of work I build full-scale side projects exploring agentic AI, RAG, and the Model Context Protocol — pairing Spring Boot / Kafka backends with Azure OpenAI to ship assistants that are actually wired into real product data. B.Tech in Computer Science (9.16 GPA) and 500+ DSA problems solved across LeetCode, Codeforces, and GeeksforGeeks.",
+  "resumeUrl": "/Pavan_BN_Resume.pdf",
+  "contactBlurb": "I'm actively seeking full-stack, backend, and AI-systems roles at top product-based companies — always happy to talk shop about microservices, distributed systems, and RAG. My inbox is open.",
+  "socials": {
+    "github": "https://github.com/Pavan-B-N",
+    "linkedin": "https://www.linkedin.com/in/pavan-b-n-7b81b9255/",
+    "leetcode": "https://leetcode.com/u/Pavan_B_N/?utm=codolio",
+    "email": "mailto:pavangowda56005@gmail.com"
+  },
+  "stats": [
+    { "label": "Years Building in Production", "value": "1+" },
+    { "label": "Microservices Shipped", "value": "12+" },
+    { "label": "DSA Problems Solved", "value": "500+" },
+    { "label": "CVEs Remediated", "value": "70+" }
+  ]
+}

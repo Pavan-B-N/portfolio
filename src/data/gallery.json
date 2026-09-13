@@ -1,0 +1,6 @@
+[
+  { "id": "microsoft-1", "image": "microsoft-1.jpg", "caption": "Microsoft, Bengaluru" },
+  { "id": "microsoft-2", "image": "microsoft-2.jpg", "caption": "Microsoft, Bengaluru" },
+  { "id": "google", "image": "google.jpg", "caption": "Visiting Google, Bengaluru" },
+  { "id": "ibm", "image": "ibm.jpg", "caption": "IBM, Bengaluru" }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ibm",
+    "company": "IBM",
+    "role": "Application Developer",
+    "location": "Bengaluru, India",
+    "start": "Jun 2026",
+    "end": "Present",
+    "current": true,
+    "bullets": [
+      "Develop 2 Spring Boot microservices and their REST APIs within an application modernization and migration program, delivering full-stack features across Java, Spring Boot, and React.",
+      "Reduced API response time from 200ms to 20ms by introducing Redis caching for frequently accessed data, and integrated Apache Kafka across 5 topics to decouple services through asynchronous, event-driven processing.",
+      "Own end-to-end deployment for both services by authoring Dockerfiles and Kubernetes manifests, enabling containerized, repeatable delivery to the cluster."
+    ]
+  },
+  {
+    "id": "microsoft",
+    "company": "Microsoft",
+    "role": "Software Engineer Apprentice",
+    "location": "Bengaluru, India",
+    "start": "Nov 2025",
+    "end": "Jun 2026",
+    "current": false,
+    "bullets": [
+      "Redesigned iteration-run retrieval for Microsoft Fabric FMLV REST APIs, replacing repeated File System initialization with batch initialization and map-based lookups, reducing lookup complexity from O(n) to O(1) and improving scalability as iteration counts grew.",
+      "Remediated 70+ security vulnerabilities (CVEs) in Apache Ambari by tracing transitive-dependency chains, upgrading affected packages, and validating compatibility across a legacy codebase with zero functional regressions."
+    ]
+  },
+  {
+    "id": "blink-health",
+    "company": "Blink Health",
+    "role": "Automation Engineer Intern",
+    "location": "Bengaluru, India",
+    "start": "Jul 2024",
+    "end": "Jun 2025",
+    "current": false,
+    "bullets": [
+      "Replaced browser-driven E2E validation with a reusable HTTP client automation framework across 100+ API endpoints, raising automation reliability from 70% to 100% and cutting execution time by 40%."
+    ]
+  }
+]

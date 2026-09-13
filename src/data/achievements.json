@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dsa",
+    "title": "500+ DSA Problems Solved",
+    "description": "Across LeetCode, Codeforces, GeeksforGeeks, and Take U Forward (TUF) — spanning Graphs, Dynamic Programming, Trees, Greedy Algorithms, and Binary Search.",
+    "link": "https://leetcode.com/u/Pavan_B_N/?utm=codolio"
+  },
+  {
+    "id": "hackathons",
+    "title": "Hackathon Builder",
+    "description": "Built and showcased solutions in the Microsoft Agent League Hackathon, Smart India Hackathon (SIH), CodeFury, and Reva Hack — across Agentic AI, Multi-Agent Systems, and Cloud-Native Applications.",
+    "link": null
+  }
+]

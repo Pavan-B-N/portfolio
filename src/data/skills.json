@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Languages",
+    "items": ["Java", "TypeScript", "JavaScript", "SQL"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Spring Boot", "REST APIs", "Microservices", "Apache Kafka", "Redis"]
+  },
+  {
+    "category": "Frontend",
+    "items": ["React.js", "Redux", "HTML5", "CSS3", "TypeScript"]
+  },
+  {
+    "category": "Databases",
+    "items": ["PostgreSQL", "MySQL", "MongoDB"]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": ["Azure", "Docker", "Kubernetes", "Git", "GitHub Actions", "CI/CD"]
+  },
+  {
+    "category": "AI & Agentic Systems",
+    "items": ["LLMs", "RAG", "Agentic AI", "Model Context Protocol (MCP)", "Azure OpenAI"]
+  },
+  {
+    "category": "Core CS",
+    "items": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+      "Distributed Systems",
+      "System Design"
+    ]
+  }
+]

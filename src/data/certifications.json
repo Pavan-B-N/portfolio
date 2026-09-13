@@ -1,0 +1,22 @@
+[
+  {
+    "id": "az-900",
+    "name": "Microsoft Certified: Azure Fundamentals",
+    "code": "AZ-900",
+    "issuer": "Microsoft",
+    "credentialId": "6F6B21F777DA5905",
+    "earnedOn": "May 21, 2026",
+    "image": "azure-fundamentals.jpeg",
+    "verifyUrl": "https://learn.microsoft.com/en-us/users/pavanbn-2436/credentials/6f6b21f777da5905?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+  },
+  {
+    "id": "ai-900",
+    "name": "Microsoft Certified: Azure AI Fundamentals",
+    "code": "AI-900",
+    "issuer": "Microsoft",
+    "credentialId": "DC88199195D2845E",
+    "earnedOn": "May 26, 2026",
+    "image": "azure-ai-fundamentals.jpeg",
+    "verifyUrl": "https://learn.microsoft.com/en-us/users/pavanbn-2436/credentials/dc88199195d2845e?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+  }
+]
