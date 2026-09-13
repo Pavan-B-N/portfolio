@@ -102,7 +102,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            className="glass mx-4 mt-2 flex flex-col rounded-2xl p-3 lg:hidden"
+            className="mx-4 mt-2 flex flex-col rounded-2xl border border-white/10 bg-surface/98 p-3 shadow-2xl shadow-black/40 backdrop-blur-2xl lg:hidden"
           >
             {NAV_LINKS.map((link) => (
               <a
