@@ -54,12 +54,12 @@ export default function Navbar() {
       >
         <a
           href="#hero"
-          className="font-display text-lg font-semibold tracking-tight text-fog"
+          className="whitespace-nowrap font-display text-lg font-semibold tracking-tight text-fog"
         >
           <span className="text-gradient">{profile.name}</span>
         </a>
 
-        <nav className="hidden items-center gap-1 md:flex">
+        <nav className="hidden items-center gap-1 lg:flex">
           {NAV_LINKS.map((link) => (
             <a
               key={link.id}
@@ -75,7 +75,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <a
             href={profile.resumeUrl}
             download
@@ -89,7 +89,7 @@ export default function Navbar() {
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="rounded-full p-2 text-fog md:hidden"
+          className="rounded-full p-2 text-fog lg:hidden"
           aria-label="Toggle menu"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
@@ -102,7 +102,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            className="glass mx-4 mt-2 flex flex-col rounded-2xl p-3 md:hidden"
+            className="glass mx-4 mt-2 flex flex-col rounded-2xl p-3 lg:hidden"
           >
             {NAV_LINKS.map((link) => (
               <a
