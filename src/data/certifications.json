@@ -18,5 +18,15 @@
     "earnedOn": "May 26, 2026",
     "image": "azure-ai-fundamentals.jpeg",
     "verifyUrl": "https://learn.microsoft.com/en-us/users/pavanbn-2436/credentials/dc88199195d2845e?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+  },
+  {
+    "id": "4a2430ec-d1c5-4744-8635-33ed89822317",
+    "name": "Claude Certified Developer - Foundations",
+    "code": "CCDF",
+    "issuer": "Anthropic",
+    "credentialId": "4a2430ec-d1c5-4744-8635-33ed89822317",
+    "earnedOn": "Sep 14, 2026",
+    "image": "claude-certified-developer-foundations",
+    "verifyUrl": "https://www.credly.com/badges/4a2430ec-d1c5-4744-8635-33ed89822317"
   }
 ]
