@@ -16,7 +16,7 @@ export default function Certifications() {
       <div className="relative mx-auto max-w-6xl px-6">
         <SectionHeading
           title="Certifications & Achievements"
-          description="Cloud fundamentals validated by Microsoft, backed by a consistent problem-solving habit and a run of hackathon builds."
+          description="Cloud fundamentals validated by Microsoft and Anthropic, backed by a consistent problem-solving habit and a run of hackathon builds."
         />
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2">

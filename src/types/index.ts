@@ -69,6 +69,19 @@ export interface Certification {
   verifyUrl: string;
 }
 
+export interface Badge {
+  id: string;
+  name: string;
+  issuer: string;
+  category: string;
+  description: string;
+  skills: string[];
+  earnedOn: string;
+  verifyUrl: string;
+  image: string;
+  color: string;
+}
+
 export interface Achievement {
   id: string;
   title: string;

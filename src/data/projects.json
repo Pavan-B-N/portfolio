@@ -32,6 +32,7 @@
     ],
     "tech": ["Java", "Spring Boot", "TypeScript", "React", "RAG", "Azure", "Kafka", "Microservices"],
     "githubUrl": "https://github.com/Pavan-B-N/synapse-ai",
+    "videoUrl":"https://youtu.be/zUTwIrRE8MU?si=44OWPZAt6GWUq4LT",
     "featured": true,
     "size": "medium"
   },
@@ -47,6 +48,7 @@
     ],
     "tech": ["TypeScript", "React", "Microservices", "Spring Boot", "PostgreSQL"],
     "githubUrl": "https://github.com/Pavan-B-N/Global-Connect",
+    "videoUrl":"https://youtu.be/pcib9JCjt6w?si=w5X3-TcFewpvnXcm",
     "featured": true,
     "size": "medium"
   },

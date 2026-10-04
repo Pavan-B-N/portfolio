@@ -27,6 +27,19 @@ export function getCertificateImage(filename: string): string {
   return url;
 }
 
+
+
+const badgeImages = import.meta.glob<string>(
+  '../assets/badges/*.{png,jpg,jpeg,webp,svg}',
+  { eager: true, import: 'default' },
+);
+const resolveBadgeImage = createImageResolver(badgeImages);
+
+/** Returns undefined so callers can render a placeholder until the real image is added. */
+export function getBadgeImage(filename: string): string | undefined {
+  return resolveBadgeImage(filename);
+}
+
 const profileImages = import.meta.glob<string>(
   '../assets/profile/*.{png,jpg,jpeg,webp,svg}',
   { eager: true, import: 'default' },
