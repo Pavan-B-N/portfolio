@@ -17,7 +17,7 @@ export default function Projects() {
           description="From event-driven microservice platforms to agentic AI assistants — a look at what I build when I own the whole stack."
         />
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2">
+        <div className="mt-16 space-y-8">
           {projects.map((project, idx) => (
             <ProjectCard key={project.id} project={project} index={idx} />
           ))}

@@ -2,20 +2,21 @@
 
 Application Developer at IBM (ex-Microsoft), Bengaluru, India.
 
-I build full-stack, cloud-native systems — Spring Boot microservices, event-driven pipelines on Kafka, and Redis-backed APIs, deployed through Docker and Kubernetes — end to end, from database schema to the React interface on top. Outside of work I build full-scale side projects exploring agentic AI, RAG, and the Model Context Protocol, pairing Spring Boot / Kafka backends with Azure OpenAI to ship assistants wired into real product data.
+I build full-stack systems — Spring Boot microservices, event-driven pipelines on Kafka, and Redis-backed APIs, deployed through Docker on Azure — end to end, from database schema to the React interface on top. Outside of work I build full-scale side projects exploring agentic AI, RAG, and the Model Context Protocol, pairing Spring Boot / Kafka backends with Azure OpenAI to ship assistants wired into real product data.
 
-**500+ DSA problems solved** across LeetCode, Codeforces, and GeeksforGeeks &middot; **B.Tech in Computer Science, 9.16 / 10 GPA**
+**500+ DSA problems solved** across LeetCode and TakeUForward &middot; **B.Tech in Computer Science, 9.16 / 10 GPA**
 
 💼 [LinkedIn](https://www.linkedin.com/in/pavan-b-n-7b81b9255/) &nbsp;|&nbsp;
 🐙 [GitHub](https://github.com/Pavan-B-N) &nbsp;|&nbsp;
-🧩 [LeetCode](https://leetcode.com/u/Pavan_B_N/?utm=codolio)
+🧩 [LeetCode](https://leetcode.com/u/Pavan_B_N/?utm=codolio) &nbsp;|&nbsp;
+⚡ [TakeUForward](https://takeuforward.org/profile/pavanbn)
 
 ---
 
 ## Experience
 
 **Application Developer, IBM** — *Jun 2026 – Present*
-Building 2 Spring Boot microservices in an application modernization program; cut API response time from 200ms to 20ms with Redis caching, wired Apache Kafka across 5 topics for event-driven processing, and own end-to-end deployment via Docker/Kubernetes.
+Cut API latency from 200ms to 20ms across high-throughput Spring Boot REST services via Redis caching on Azure; integrated Apache Kafka across 5 event topics for decoupled, asynchronous backend processing.
 
 **Software Engineer Apprentice, Microsoft** — *Nov 2025 – Jun 2026*
 Redesigned iteration-run retrieval for Microsoft Fabric FMLV REST APIs, cutting lookup complexity from O(n) to O(1). Remediated 70+ security vulnerabilities (CVEs) in Apache Ambari with zero functional regressions.
@@ -38,12 +39,13 @@ More (Ocean Explorer Probe, Competitive Programming, Hiccup) on [GitHub](https:/
 
 ## Skills
 
-**Languages:** Java, TypeScript, JavaScript, SQL
+**Languages:** Java, TypeScript, JavaScript, Python, SQL
 **Backend:** Spring Boot, REST APIs, Microservices, Apache Kafka, Redis
 **Frontend:** React.js, Redux, HTML5, CSS3
 **Databases:** PostgreSQL, MySQL, MongoDB
 **Cloud & DevOps:** Azure, Docker, Kubernetes, Git, GitHub Actions, CI/CD
 **AI & Agentic Systems:** LLMs, RAG, Agentic AI, Model Context Protocol (MCP), Azure OpenAI
+**AI Tools:** Claude Code, GitHub Copilot, ChatGPT, Codex, Antigravity
 
 ## Certifications
 

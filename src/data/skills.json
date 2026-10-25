@@ -1,7 +1,7 @@
 [
   {
     "category": "Languages",
-    "items": ["Java", "TypeScript", "JavaScript", "SQL"]
+    "items": ["Java", "TypeScript", "JavaScript", "Python", "SQL"]
   },
   {
     "category": "Backend",
@@ -22,6 +22,10 @@
   {
     "category": "AI & Agentic Systems",
     "items": ["LLMs", "RAG", "Agentic AI", "Model Context Protocol (MCP)", "Azure OpenAI"]
+  },
+  {
+    "category": "AI Tools",
+    "items": ["Claude Code", "GitHub Copilot", "ChatGPT", "Codex", "Antigravity"]
   },
   {
     "category": "Core CS",

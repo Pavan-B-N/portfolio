@@ -1,13 +1,11 @@
 import { motion } from 'framer-motion';
-import { Award, BadgeCheck, Calendar, ExternalLink, IdCard } from 'lucide-react';
+import { BadgeCheck, Calendar, ExternalLink, IdCard } from 'lucide-react';
 import certificationsData from '../data/certifications.json';
-import achievementsData from '../data/achievements.json';
 import { getCertificateImage } from '../lib/assets';
 import SectionHeading from './SectionHeading';
-import type { Achievement, Certification } from '../types';
+import type { Certification } from '../types';
 
 const certifications = certificationsData as Certification[];
-const achievements = achievementsData as Achievement[];
 
 export default function Certifications() {
   return (
@@ -15,8 +13,8 @@ export default function Certifications() {
       <div className="pointer-events-none absolute right-0 top-0 h-96 w-96 rounded-full bg-pink/10 blur-[120px]" />
       <div className="relative mx-auto max-w-6xl px-6">
         <SectionHeading
-          title="Certifications & Achievements"
-          description="Cloud fundamentals validated by Microsoft and Anthropic, backed by a consistent problem-solving habit and a run of hackathon builds."
+          title="Certifications"
+          description="Industry-recognized credentials in Cloud Architecture, AI Fundamentals, Anthropic Foundations, and Data Structures & Algorithms."
         />
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2">
@@ -85,39 +83,6 @@ export default function Certifications() {
                 </div>
               </div>
             </motion.a>
-          ))}
-        </div>
-
-        <div className="mt-6 grid gap-5 sm:grid-cols-2">
-          {achievements.map((item, idx) => (
-            <motion.div
-              key={item.id}
-              initial={{ opacity: 0, y: 26 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.55, delay: idx * 0.1 }}
-              className="glass rounded-2xl p-6"
-            >
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-pink/20 to-violet/20 text-pink">
-                <Award size={18} />
-              </div>
-              <h3 className="mt-4 font-display text-base font-semibold text-fog">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-mist">
-                {item.description}
-              </p>
-              {item.link && (
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-4 inline-block text-xs font-semibold text-cyan hover:underline"
-                >
-                  View Profile &rarr;
-                </a>
-              )}
-            </motion.div>
           ))}
         </div>
       </div>

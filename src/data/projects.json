@@ -2,18 +2,17 @@
   {
     "id": "readora",
     "name": "Readora",
-    "tagline": "Cloud-native, AI-powered bookstore platform",
-    "description": "An event-driven platform of 10 Spring Boot microservices behind Spring Cloud Gateway, with an MCP server that exposes catalog, cart, and order data to a RAG reading assistant — plus a full GitOps pipeline to a Kubernetes cluster.",
+    "tagline": "Event-Driven Microservices Bookstore & MCP RAG Assistant",
+    "description": "A cloud-native, event-driven bookstore platform built on 10 Spring Boot 3.3 microservices, an MCP-powered AI reading assistant, 3 React 19 frontends, and a GitOps pipeline to Azure Kubernetes Service (AKS).",
     "bullets": [
-      "Architected 10 Spring Boot microservices behind Spring Cloud Gateway with JWT auth and Redis-backed rate limiting; coordinated 10 Kafka topics via the transactional outbox pattern with idempotent consumers and circuit breakers.",
-      "Built an MCP server exposing catalog, cart, and order data as tool-callable endpoints for a RAG reading assistant (Azure OpenAI + pgvector semantic search).",
-      "Shipped 3 React + TypeScript apps with Redux Toolkit and STOMP/SockJS for real-time order and notification updates.",
-      "Delivered a GitOps pipeline of 13 GitHub Actions workflows enforcing a 90% JaCoCo coverage gate, with ArgoCD auto-syncing an AKS cluster and OpenTelemetry tracing to New Relic."
+      "Engineered 10 Spring Boot 3.3 microservices (Java 21) behind Spring Cloud Gateway with JWT verification and Bucket4j Redis rate limiting.",
+      "Built a standalone mcp-server exposing store data as MCP tools for an ai-service running Azure OpenAI + pgvector RAG semantic search.",
+      "Coordinated orders, payments, refunds, and real-time WebSocket notifications across Apache Kafka topics using the transactional outbox pattern.",
+      "Established true GitOps with ArgoCD auto-syncing AKS from GitHub Actions, a 90% JaCoCo coverage gate, Trivy CVE scanning, and OpenTelemetry to New Relic."
     ],
     "tech": [
-      "Java", "Spring Boot", "Spring Cloud Gateway", "Apache Kafka", "Redis", "PostgreSQL",
-      "React", "TypeScript", "Redux Toolkit", "Azure OpenAI", "pgvector", "MCP",
-      "Docker", "Kubernetes", "ArgoCD", "GitHub Actions", "OpenTelemetry"
+      "Java 21", "Spring Boot 3.3", "Apache Kafka", "Redis", "pgvector", "Azure OpenAI",
+      "MCP", "Docker", "Kubernetes (AKS)", "ArgoCD", "React 19", "TypeScript"
     ],
     "githubUrl": "https://github.com/Pavan-B-N/readora",
     "videoUrl": "https://www.youtube.com/watch?v=BDClXCK8y0o",
@@ -23,92 +22,61 @@
   {
     "id": "synapse-ai",
     "name": "Synapse AI",
-    "tagline": "AI-powered collaborative knowledge workspace",
-    "description": "An enterprise-grade distributed microservices platform that turns unstructured data into structured insight — Retrieval-Augmented Generation, real-time collaboration, event-driven architecture, and Azure cloud-native services under one roof.",
+    "tagline": "Collaborative Knowledge Workspace & Distributed Microservices",
+    "description": "An enterprise distributed microservices platform transforming unstructured data (PDF, Markdown, CSV) into structured insight via RAG, real-time collaboration, and Azure cloud-native services.",
     "bullets": [
-      "Designed a distributed microservice architecture with deep RAG integration for turning unstructured documents into searchable, structured knowledge.",
-      "Implemented real-time collaboration and pub-sub, event-driven communication patterns across services, including Change Data Capture (CDC).",
-      "Built a security architecture with full logging and observability across the platform, deployed on Azure cloud-native infrastructure."
+      "Architected 7 independently deployable microservices behind an API Gateway with reverse proxying, Redis rate limiting, and S2S security guards.",
+      "Engineered RAG pipelines with automated chunking, vector indexing, and context-aware natural language Q&A with source citations.",
+      "Shipped real-time document collaboration with presence indicators, shared workspaces, and Socket.IO synchronized across a Redis adapter.",
+      "Hardened platform resilience with Change Data Capture (CDC), Circuit Breakers, Azure Service Bus pub-sub, and RAID distributed request tracing."
     ],
-    "tech": ["Java", "Spring Boot", "TypeScript", "React", "RAG", "Azure", "Kafka", "Microservices"],
+    "tech": [
+      "Node.js", "Express", "RAG", "Vector DB", "Azure Service Bus", "Redis",
+      "Socket.IO", "React 19", "TypeScript", "Tailwind CSS"
+    ],
     "githubUrl": "https://github.com/Pavan-B-N/synapse-ai",
-    "videoUrl":"https://youtu.be/zUTwIrRE8MU?si=44OWPZAt6GWUq4LT",
+    "videoUrl": "https://youtu.be/zUTwIrRE8MU?si=44OWPZAt6GWUq4LT",
     "featured": true,
     "size": "medium"
   },
   {
     "id": "global-connect",
     "name": "Global Connect",
-    "tagline": "Next-generation recruitment platform",
-    "description": "A cloud-native recruitment ecosystem unifying the hiring experience for candidates, recruiters, companies, and admins — with multi-dimensional ATS scoring and a transparent, structured feedback loop instead of keyword matching.",
+    "tagline": "Cloud-Native Recruitment Ecosystem & Intelligent ATS Engine",
+    "description": "A modern recruitment platform unifying candidates, recruiters, companies, and admins — powered by a 5-dimension intelligent ATS scoring engine with real-time SSE streaming.",
     "bullets": [
-      "Built multi-dimensional ATS scoring (skills + experience + education + projects + feedback) to replace naive keyword matching.",
-      "Designed a 'Connects' feature enabling structured, transparent candidate-manager feedback visible to recruiters.",
-      "Unified candidates, recruiters, companies, and admins into a single microservices-backed ecosystem instead of siloed portals."
+      "Built an intelligent ATS engine scoring candidates across 5 weighted dimensions (Skills 40%, Experience 20%, Education 15%, Projects 15%, Manager Feedback 10%).",
+      "Streamed match computations in real time via Server-Sent Events (SSE) with transparent threshold breakdowns (70+ score shortlist decisioning).",
+      "Designed the 'Connects' feedback loop enabling structured candidate self-reflections and manager-verified ratings visible directly to recruiters.",
+      "Built multi-role architecture with secure JWT authentication, company compliance verification, and end-to-end recruitment audit trails."
     ],
-    "tech": ["TypeScript", "React", "Microservices", "Spring Boot", "PostgreSQL"],
+    "tech": [
+      "TypeScript", "React", "Spring Boot", "PostgreSQL", "Server-Sent Events (SSE)",
+      "Microservices", "REST APIs"
+    ],
     "githubUrl": "https://github.com/Pavan-B-N/Global-Connect",
-    "videoUrl":"https://youtu.be/pcib9JCjt6w?si=w5X3-TcFewpvnXcm",
+    "videoUrl": "https://youtu.be/pcib9JCjt6w?si=w5X3-TcFewpvnXcm",
     "featured": true,
     "size": "medium"
   },
   {
     "id": "enterprise-learning-system",
     "name": "Enterprise Learning System",
-    "tagline": "Multi-agent enterprise learning platform",
-    "description": "Built for the Microsoft Foundry \"Reasoning Agents\" Hackathon — turns a static course catalog into a personalized learning surface, orchestrated across five specialist AI agents.",
+    "tagline": "Multi-Agent Enterprise Learning Platform (Microsoft Hackathon)",
+    "description": "AI-powered multi-agent learning platform built for the Microsoft Foundry \"Reasoning Agents\" Hackathon Track, turning static course catalogs into adaptive, personalized learning paths.",
     "bullets": [
-      "A Foundry orchestrator agent routes each request to one of five specialist agents (curator, assessment, planner, engagement, manager-insights) over the A2A protocol.",
-      "Grounded agent responses in MongoDB via MCP and in certification material through a Foundry IQ knowledge base.",
-      "Shipped a learner dashboard with personalized recommendations driven entirely by the multi-agent pipeline."
+      "Designed a Foundry orchestrator agent routing user requests across five specialist agents (curator, assessment, planner, engagement, manager-insights) over the A2A protocol.",
+      "Grounded agent reasoning in MongoDB through Model Context Protocol (MCP) and certification material via a Foundry IQ knowledge base.",
+      "Delivered adaptive learner dashboards with weekly focus-hour study plans, motivational nudges, and AI practice assessments with citable explanations.",
+      "Implemented an executive manager readiness console tracking team skill gaps, at-risk learners, and automated remediation action plans."
     ],
-    "tech": ["Multi-Agent Systems", "Microsoft Foundry", "MCP", "A2A Protocol", "MongoDB", "TypeScript"],
+    "tech": [
+      "Multi-Agent Systems", "Microsoft Foundry", "MCP", "A2A Protocol", "MongoDB",
+      "TypeScript", "React"
+    ],
     "githubUrl": "https://github.com/Pavan-B-N/Enterprise-Learning-System",
     "videoUrl": "https://youtu.be/zq8fesZbrlU",
     "featured": true,
     "size": "medium"
-  },
-  {
-    "id": "surface-ocean-probe",
-    "name": "Ocean Explorer Probe",
-    "tagline": "Clean-code kata, built test-first",
-    "description": "A remotely controlled submersible probe API built for the NatWest Ocean Explorer Kata — a clean-code showcase built around SOLID principles, the Command and Strategy patterns, and a 103-test suite.",
-    "bullets": [
-      "Applied the Command pattern to encapsulate each control instruction, enabling queueing, replay, and decoupled execution from parsing.",
-      "Abstracted movement calculation behind a Strategy interface so new movement behaviours can be added without touching existing code.",
-      "Backed the domain with 103 tests across 8 classes, covering boundaries, obstacle handling, and 10 end-to-end integration scenarios."
-    ],
-    "tech": ["Java", "Maven", "JUnit", "Design Patterns", "TDD"],
-    "githubUrl": "https://github.com/Pavan-B-N/Surface-Ocean-Probe",
-    "featured": false,
-    "size": "small"
-  },
-  {
-    "id": "competitive-programming",
-    "name": "Competitive Programming",
-    "tagline": "500+ DSA solutions, problem-tagged",
-    "description": "A growing archive of Codeforces and DSA solutions in C++, organized by pattern — Binary Search, Bit Manipulation, Greedy, and Math & Number Theory — built while solving 500+ problems across LeetCode, Codeforces, and GeeksforGeeks.",
-    "bullets": [
-      "Solutions organized by algorithmic pattern rather than by problem source, for quick interview-prep review.",
-      "Covers Binary Search, Bit Manipulation, Greedy Algorithms, Graphs, DP, and Math & Number Theory."
-    ],
-    "tech": ["C++", "Data Structures", "Algorithms"],
-    "githubUrl": "https://github.com/Pavan-B-N/Competitive-Programming",
-    "featured": false,
-    "size": "small"
-  },
-  {
-    "id": "hiccup",
-    "name": "Hiccup",
-    "tagline": "Peer-to-peer video conferencing",
-    "description": "A real-time, peer-to-peer video conferencing app built with WebRTC for direct audio/video and Socket.io for signaling — low-latency calls with minimal setup.",
-    "bullets": [
-      "Implemented direct peer-to-peer video/audio streaming with WebRTC.",
-      "Built the signaling layer and connection management with Socket.io."
-    ],
-    "tech": ["WebRTC", "Socket.io", "JavaScript"],
-    "githubUrl": "https://github.com/Pavan-B-N/hiccup",
-    "featured": false,
-    "size": "small"
   }
 ]

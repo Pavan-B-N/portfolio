@@ -12,6 +12,28 @@ const experience = experienceData as Experience[];
 const currentRole = experience.find((job) => job.current) ?? experience[0];
 const previousRole = experience.find((job) => job.id !== currentRole.id);
 
+function parseMonthYear(str: string): Date {
+  if (str.toLowerCase() === 'present') return new Date();
+  const [mon, yr] = str.split(' ');
+  const monthMap: Record<string, number> = {
+    Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
+    Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11,
+  };
+  return new Date(parseInt(yr, 10), monthMap[mon] ?? 0, 1);
+}
+
+function calculateTotalYears(jobs: Experience[]): string {
+  if (!jobs.length) return '1+ Years';
+  const startDates = jobs.map((j) => parseMonthYear(j.start).getTime());
+  const earliest = new Date(Math.min(...startDates));
+  const now = new Date();
+  const months = (now.getFullYear() - earliest.getFullYear()) * 12 + (now.getMonth() - earliest.getMonth());
+  const years = (months / 12).toFixed(1);
+  return `${years}+ Years`;
+}
+
+const dynamicYears = calculateTotalYears(experience);
+
 export default function Hero() {
   const [wordIndex, setWordIndex] = useState(0);
 
@@ -47,7 +69,7 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
             </span>
-            Open to Full-Stack &amp; Backend roles &middot; {profile.location}
+            Open to Full-Stack &amp; Backend roles &middot; {dynamicYears} Production Exp &middot; {profile.location}
           </motion.div>
 
           <motion.h1
@@ -136,24 +158,6 @@ export default function Hero() {
               >
                 <Icon className="h-[17px] w-[17px]" />
               </a>
-            ))}
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.65 }}
-            className="mx-auto mt-14 grid max-w-md grid-cols-2 gap-3 sm:grid-cols-4 lg:mx-0"
-          >
-            {profile.stats.map((stat) => (
-              <div key={stat.label} className="glass rounded-2xl px-3 py-4">
-                <div className="font-display text-2xl font-semibold text-fog sm:text-3xl">
-                  {stat.value}
-                </div>
-                <div className="mt-1 text-[11px] leading-tight text-mist sm:text-xs">
-                  {stat.label}
-                </div>
-              </div>
             ))}
           </motion.div>
         </div>

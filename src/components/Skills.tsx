@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import {
+  Bot,
   Boxes,
   Cloud,
   Code2,
@@ -21,6 +22,7 @@ const ICONS: Record<string, typeof Code2> = {
   Databases: Database,
   'Cloud & DevOps': Cloud,
   'AI & Agentic Systems': Sparkles,
+  'AI Tools': Bot,
   'Core CS': Cpu,
 };
 

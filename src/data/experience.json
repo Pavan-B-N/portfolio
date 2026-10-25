@@ -8,9 +8,8 @@
     "end": "Present",
     "current": true,
     "bullets": [
-      "Develop 2 Spring Boot microservices and their REST APIs within an application modernization and migration program, delivering full-stack features across Java, Spring Boot, and React.",
-      "Reduced API response time from 200ms to 20ms by introducing Redis caching for frequently accessed data, and integrated Apache Kafka across 5 topics to decouple services through asynchronous, event-driven processing.",
-      "Own end-to-end deployment for both services by authoring Dockerfiles and Kubernetes manifests, enabling containerized, repeatable delivery to the cluster."
+      "Developed 8+ RESTful API endpoints using Java, Spring Boot, and Spring Data JPA on PostgreSQL, enforcing schema validation and centralized exception handling across transactional workflows.",
+      "Engineered Redis cache-aside caching to cut peak read latency from 180ms to ~35ms, and authored 100+ unit tests (JUnit 5, Mockito) alongside 20+ integration tests using Testcontainers, achieving 80%+ branch coverage."
     ]
   },
   {
@@ -22,8 +21,10 @@
     "end": "Jun 2026",
     "current": false,
     "bullets": [
-      "Redesigned iteration-run retrieval for Microsoft Fabric FMLV REST APIs, replacing repeated File System initialization with batch initialization and map-based lookups, reducing lookup complexity from O(n) to O(1) and improving scalability as iteration counts grew.",
-      "Remediated 70+ security vulnerabilities (CVEs) in Apache Ambari by tracing transitive-dependency chains, upgrading affected packages, and validating compatibility across a legacy codebase with zero functional regressions."
+      "Optimized iteration-run retrieval APIs in Microsoft Fabric FMLV from O(n) to O(1) by eliminating redundant File System instantiations and implementing batch-initialized lookup maps.",
+      "Remediated 70+ CVE security vulnerabilities across Apache Ambari (HDInsight) by tracing complex transitive dependency trees in yarn.lock with zero functional regressions.",
+      "Eliminated intermittent CI/CD pipeline test failures and ICM alerts by diagnosing parallel execution race conditions and engineering class-level batch cleanup.",
+      "Built an automated functional test framework for Multi-Schedule MLV Public APIs, establishing regression-free releases and resolving critical exception mappings (500 to 404)."
     ]
   },
   {
@@ -35,7 +36,8 @@
     "end": "Jun 2025",
     "current": false,
     "bullets": [
-      "Replaced browser-driven E2E validation with a reusable HTTP client automation framework across 100+ API endpoints, raising automation reliability from 70% to 100% and cutting execution time by 40%."
+      "Architected a reusable HTTP client automation framework replacing flaky UI tests across 100+ endpoints, elevating test reliability from 70% to 100% and slashing execution duration by 40%.",
+      "Pioneered customer-centric SMS verification by integrating Twilio Delivery Status APIs into the CI/CD test suite, replacing internal database assumptions with real-world delivery confirmation."
     ]
   }
 ]

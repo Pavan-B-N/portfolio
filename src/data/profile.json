@@ -10,13 +10,14 @@
     "Full-Stack Platforms"
   ],
   "location": "Bengaluru, India",
-  "summary": "I'm an Application Developer at IBM building full-stack, cloud-native systems — Spring Boot microservices, event-driven pipelines on Kafka, and Redis-backed APIs, deployed through Docker and Kubernetes. I like designing platforms end to end: from database schema to REST API to the React interface on top, with observability and CI/CD baked in from day one.",
-  "summarySecondary": "Outside of work I build full-scale side projects exploring agentic AI, RAG, and the Model Context Protocol — pairing Spring Boot / Kafka backends with Azure OpenAI to ship assistants that are actually wired into real product data. B.Tech in Computer Science (9.16 GPA) and 500+ DSA problems solved across LeetCode, Codeforces, and GeeksforGeeks.",
+  "summary": "I'm an Application Developer at IBM building full-stack systems — Spring Boot microservices, event-driven pipelines on Kafka, and Redis-backed APIs, deployed through Docker on Azure. I like designing platforms end to end: from database schema to REST API to the React interface on top, with observability and CI/CD baked in from day one.",
+  "summarySecondary": "Outside of work I build full-scale side projects exploring agentic AI, RAG, and the Model Context Protocol — pairing Spring Boot / Kafka backends with Azure OpenAI to ship assistants that are actually wired into real product data. B.Tech in Computer Science (9.16 GPA) and 500+ DSA problems solved across LeetCode and TakeUForward.",
   "contactBlurb": "I'm actively seeking full-stack, backend, and AI-systems roles at top product-based companies — always happy to talk shop about microservices, distributed systems, and RAG. Feel free to connect or drop me a message on LinkedIn!",
   "socials": {
     "github": "https://github.com/Pavan-B-N",
     "linkedin": "https://www.linkedin.com/in/pavan-b-n-7b81b9255/",
-    "leetcode": "https://leetcode.com/u/Pavan_B_N/?utm=codolio"
+    "leetcode": "https://leetcode.com/u/Pavan_B_N/?utm=codolio",
+    "takeuforward": "https://takeuforward.org/profile/pavanbn"
   },
   "stats": [
     { "label": "Years Building in Production", "value": "1+" },
