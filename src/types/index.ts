@@ -104,3 +104,22 @@ export interface GalleryPhoto {
   image: string;
   caption: string;
 }
+
+export interface OpenSourceContribution {
+  id: string;
+  name: string;
+  project: string;
+  org: string;
+  tagline: string;
+  event: string;
+  date: string;
+  prNumber: number;
+  prUrl: string;
+  repoUrl: string;
+  mainRepoUrl: string;
+  description: string;
+  bullets: string[];
+  tech: string[];
+  image?: string;
+}
+

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "repolens",
+    "name": "RepoLens",
+    "project": "open-source-agents",
+    "org": "gdgcblr",
+    "tagline": "AI-Powered Troubleshooting & Security Investigation Agent",
+    "event": "Google DevFest · Google Anantha",
+    "date": "2026",
+    "prNumber": 127,
+    "prUrl": "https://github.com/gdgcblr/open-source-agents/pull/127",
+    "repoUrl": "https://github.com/Pavan-B-N/open-source-agents/tree/feat/pavan-repolens-agent/agents/repolens",
+    "mainRepoUrl": "https://github.com/gdgcblr/open-source-agents",
+    "description": "An autonomous AI troubleshooting and security investigation agent developed during an intensive building session at Google DevFest at Google Anantha, Bengaluru. RepoLens automates repository triage, scans for security anomalies, and surfaces actionable remediation paths for open-source maintainers.",
+    "bullets": [
+      "Built and shipped during a 2-hour hack sprint at Google DevFest (Google Anantha, Bengaluru) as part of the community-driven Open Source Agents project.",
+      "Engineered multi-step reasoning routines to autonomously analyze repository issues, trace anomalies, and flag security vulnerabilities.",
+      "Contributed via Pull Request #127 to GDG Bengaluru's official open-source repository with modular agent specifications."
+    ],
+    "tech": [
+      "Python",
+      "AI Agents",
+      "Security Analysis",
+      "Automated Triage",
+      "GitHub API",
+      "Google DevFest"
+    ],
+    "image": "google-ananta.png"
+  }
+]

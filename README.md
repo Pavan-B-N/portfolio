@@ -32,6 +32,10 @@ Replaced browser-driven E2E validation with a reusable HTTP client automation fr
 
 More (Ocean Explorer Probe, Competitive Programming, Hiccup) on [GitHub](https://github.com/Pavan-B-N).
 
+## Open Source Contributions
+
+- **[RepoLens](https://github.com/Pavan-B-N/open-source-agents/tree/feat/pavan-repolens-agent/agents/repolens)** (*in [gdgcblr/open-source-agents](https://github.com/gdgcblr/open-source-agents)*) — AI-powered troubleshooting and security investigation agent built during Google DevFest at Google Anantha, Bengaluru. [Pull Request #127](https://github.com/gdgcblr/open-source-agents/pull/127)
+
 ## Skills
 
 **Languages:** Java, TypeScript, JavaScript, SQL

@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { id: 'about', label: 'About' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
+  { id: 'open-source', label: 'Open Source' },
   { id: 'skills', label: 'Skills' },
   { id: 'certifications', label: 'Certs' },
   { id: 'badges', label: 'Badges' },
@@ -61,12 +62,12 @@ export default function Navbar() {
           <span className="text-gradient">{profile.name}</span>
         </a>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0.5 xl:gap-1 lg:flex">
           {NAV_LINKS.map((link) => (
             <a
               key={link.id}
               href={`#${link.id}`}
-              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+              className={`rounded-full px-3 py-1.5 text-xs xl:px-3.5 xl:py-2 xl:text-sm font-medium transition-colors ${
                 active === link.id
                   ? 'bg-white/10 text-fog'
                   : 'text-mist hover:text-fog'
