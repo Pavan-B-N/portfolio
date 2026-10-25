@@ -2,7 +2,7 @@ export interface SocialLinks {
   github: string;
   linkedin: string;
   leetcode: string;
-  email: string;
+  email?: string;
 }
 
 export interface Stat {
@@ -17,10 +17,10 @@ export interface Profile {
   role: string;
   taglineWords: string[];
   location: string;
-  email: string;
+  email?: string;
   summary: string;
   summarySecondary: string;
-  resumeUrl: string;
+  resumeUrl?: string;
   contactBlurb: string;
   socials: SocialLinks;
   stats: Stat[];

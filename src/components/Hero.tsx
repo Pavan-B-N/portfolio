@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowDown, Mail } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import profile from '../data/profile.json';
 import experienceData from '../data/experience.json';
 import { GithubIcon, LeetcodeIcon, LinkedinIcon } from './icons/BrandIcons';
@@ -125,12 +125,11 @@ export default function Hero() {
               { href: profile.socials.github, icon: GithubIcon, label: 'GitHub' },
               { href: profile.socials.linkedin, icon: LinkedinIcon, label: 'LinkedIn' },
               { href: profile.socials.leetcode, icon: LeetcodeIcon, label: 'LeetCode' },
-              { href: profile.socials.email, icon: Mail, label: 'Email' },
             ].map(({ href, icon: Icon, label }) => (
               <a
                 key={label}
                 href={href}
-                target={href.startsWith('mailto:') ? undefined : '_blank'}
+                target="_blank"
                 rel="noreferrer"
                 aria-label={label}
                 className="glass flex h-10 w-10 items-center justify-center rounded-full text-mist transition-colors hover:border-violet/50 hover:text-fog"

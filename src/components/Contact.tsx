@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, MapPin } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import profile from '../data/profile.json';
 import { GithubIcon, LeetcodeIcon, LinkedinIcon } from './icons/BrandIcons';
 
@@ -24,18 +24,20 @@ export default function Contact() {
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
             <a
-              href={profile.socials.email}
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet to-indigo px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-violet/25 transition-transform hover:scale-[1.03]"
+              href={profile.socials.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-violet to-indigo px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-violet/25 transition-transform hover:scale-[1.03]"
             >
-              <Mail size={16} />
-              {profile.email}
+              <LinkedinIcon className="h-[18px] w-[18px]" />
+              Message me on LinkedIn
             </a>
           </div>
 
           <div className="mt-8 flex items-center justify-center gap-4">
             {[
-              { href: profile.socials.github, icon: GithubIcon, label: 'GitHub' },
               { href: profile.socials.linkedin, icon: LinkedinIcon, label: 'LinkedIn' },
+              { href: profile.socials.github, icon: GithubIcon, label: 'GitHub' },
               { href: profile.socials.leetcode, icon: LeetcodeIcon, label: 'LeetCode' },
             ].map(({ href, icon: Icon, label }) => (
               <a

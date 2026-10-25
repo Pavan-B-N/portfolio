@@ -6,11 +6,9 @@ I build full-stack, cloud-native systems — Spring Boot microservices, event-dr
 
 **500+ DSA problems solved** across LeetCode, Codeforces, and GeeksforGeeks &middot; **B.Tech in Computer Science, 9.16 / 10 GPA**
 
-📧 [pavangowda56005@gmail.com](mailto:pavangowda56005@gmail.com) &nbsp;|&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/pavan-b-n-7b81b9255/) &nbsp;|&nbsp;
 🐙 [GitHub](https://github.com/Pavan-B-N) &nbsp;|&nbsp;
-🧩 [LeetCode](https://leetcode.com/u/Pavan_B_N/?utm=codolio) &nbsp;|&nbsp;
-📄 [Résumé](public/Pavan_BN_Resume.pdf)
+🧩 [LeetCode](https://leetcode.com/u/Pavan_B_N/?utm=codolio)
 
 ---
 

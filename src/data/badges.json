@@ -3,13 +3,16 @@
     "id": "agents-league-reasoning",
     "name": "Reasoning Agents",
     "issuer": "Global AI Community × Microsoft",
-    "category": "Agents League",
     "description": "Designed and built intelligent agents using Microsoft Foundry that solve complex problems through multi-step reasoning and structured problem-solving approaches.",
-    "skills": ["Microsoft Foundry", "Agentic AI", "Generative AI"],
+    "skills": [
+      "Microsoft Foundry",
+      "Agentic AI",
+      "Generative AI"
+    ],
     "earnedOn": "2026",
     "verifyUrl": "https://globalai.community/badges/130dbaee-ceea-4895-bdf8-a305c54d9908",
     "image": "agents-league-reasoning",
-    "color": "pink"
+    "color": "orange"
   },
   {
     "id": "build-with-gemini",
@@ -17,7 +20,12 @@
     "issuer": "Google Cloud",
     "category": "Skill Badge · Intermediate",
     "description": "Earned the intermediate skill badge for demonstrating proficiency in building AI-powered applications using Google's Gemini models on Google Cloud.",
-    "skills": ["Gemini API", "Google Cloud", "Generative AI", "AI Application Development"],
+    "skills": [
+      "Gemini API",
+      "Google Cloud",
+      "Generative AI",
+      "AI Application Development"
+    ],
     "earnedOn": "2026",
     "verifyUrl": "",
     "image": "build-with-gemini",
@@ -27,12 +35,32 @@
     "id": "build-with-ai-bootcamp",
     "name": "Build with AI Bootcamp",
     "issuer": "Google for Developers × H2S",
-    "category": "Certificate of Participation",
     "description": "Participated in the Build with AI Bootcamp in Bangalore, demonstrating the technical skills required to build AI agents, architect workflows, and integrate generative AI into production-ready systems.",
-    "skills": ["AI Agents", "Generative AI", "Workflow Architecture", "Production AI Systems"],
+    "skills": [
+      "AI Agents",
+      "Generative AI",
+      "Workflow Architecture",
+      "Production AI Systems"
+    ],
     "earnedOn": "Sep 24, 2026",
     "verifyUrl": "",
     "image": "build-with-ai-bootcamp",
     "color": "violet"
+  },
+  {
+    "id": "build-with-gemini-platform-builder",
+    "name": "Build with Gemini Platform Builder",
+    "issuer": "Google for Developers X IBM",
+    "description": "Build with Gemini Bootcamp",
+    "skills": [
+      "Vibe Coding",
+      "Google Antigravity",
+      "Google Cloud Platform",
+      "Gemini EnterPrise"
+    ],
+    "earnedOn": "Sep 24, 2026",
+    "verifyUrl": "https://www.credly.com/badges/153af825-cde2-43c5-af47-f8c634111fa9",
+    "image": "build-with-gemini-platform-builder.png",
+    "color": "yellow"
   }
 ]

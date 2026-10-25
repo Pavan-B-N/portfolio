@@ -28,5 +28,14 @@
     "earnedOn": "Sep 14, 2026",
     "image": "claude-certified-developer-foundations",
     "verifyUrl": "https://www.credly.com/badges/4a2430ec-d1c5-4744-8635-33ed89822317"
+  },
+  {
+    "id": "NN1A-7sXvVYoo",
+    "name": "DSA A2Z By TakeYouForward",
+    "code": "",
+    "issuer": "TUF",
+    "credentialId": "NN1A-7sXvVYoo",
+    "earnedOn": "Sep 23, 2026",
+    "image": "dsa"
   }
 ]

@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Download } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import profile from '../data/profile.json';
+import { LinkedinIcon } from './icons/BrandIcons';
 
 const NAV_LINKS = [
   { id: 'about', label: 'About' },
@@ -78,12 +79,13 @@ export default function Navbar() {
 
         <div className="hidden lg:block">
           <a
-            href={profile.resumeUrl}
-            download
+            href={profile.socials.linkedin}
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-fog transition-colors hover:border-violet/50 hover:bg-violet/10"
           >
-            <Download size={15} />
-            Resume
+            <LinkedinIcon className="h-4 w-4" />
+            Connect
           </a>
         </div>
 
@@ -116,13 +118,14 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={profile.resumeUrl}
-              download
+              href={profile.socials.linkedin}
+              target="_blank"
+              rel="noreferrer"
               onClick={() => setOpen(false)}
-              className="mt-1 inline-flex items-center gap-2 rounded-xl bg-white/5 px-4 py-3 text-sm font-medium text-fog"
+              className="mt-1 inline-flex items-center gap-2 rounded-xl bg-white/5 px-4 py-3 text-sm font-medium text-fog hover:bg-white/10"
             >
-              <Download size={15} />
-              Download Resume
+              <LinkedinIcon className="h-4 w-4" />
+              Message on LinkedIn
             </a>
           </motion.nav>
         )}
